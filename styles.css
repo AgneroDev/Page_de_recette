@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+}
+.main-header img {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.main-header {
+  margin: 20px 0px;
+}
+.texte h1 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.texte p {
+  margin-bottom: 30px;
+}
+.Prepar {
+  background-color: aqua;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.Prepar h2 {
+  margin-bottom: 10px;
+}
+.Prepar ul li {
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+.Prepar ul li span {
+  padding-left: 18px;
+}
+.ingre ul {
+  margin: 20px;
+}
+.ingre ul li {
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.instr ol {
+  margin: 20px;
+}
+.instr ol li {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.instr {
+  text-align: start;
+}
+hr {
+  margin-bottom: 20px;
+}
+table {
+  border-collapse: collapse;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  width: 100%;
+  margin-top: 20px;
+}
+td,
+th {
+  border-bottom: 1px solid rgb(190, 190, 190);
+  padding: 10px 20px;
+}
+
+th {
+  text-align: start;
+}
+
+td {
+  text-align: start;
+}
+h1 {
+  margin-bottom: 20px;
+}
