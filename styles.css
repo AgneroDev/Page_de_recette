@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --color-background: #fff;
+  --color-text: #333;
+  --color-accent: #f8e9dd;
+  --color-border: #e4e4e4;
+  --border-radius: 10px;
+}
 body {
   display: flex;
   justify-content: center;
@@ -18,13 +25,13 @@ main {
   align-items: center;
   width: 700px;
 }
-.main-header img {
+.recipe-card img {
   width: 100%;
   height: 350px;
   border-radius: 10px;
   margin-bottom: 20px;
 }
-.main-header {
+.recipe-card {
   margin: 20px 0px;
 }
 .texte h1 {
@@ -34,37 +41,38 @@ main {
 .texte p {
   margin-bottom: 30px;
 }
-.Prepar {
+.preparation-time {
   background-color: aqua;
   padding: 30px;
   border-radius: 10px;
   margin-bottom: 20px;
+  background-color: var(--color-accent);
 }
-.Prepar h2 {
+.preparation-time h2 {
   margin-bottom: 10px;
 }
-.Prepar ul li {
+.preparation-time ul li {
   margin-left: 20px;
   padding-bottom: 10px;
 }
-.Prepar ul li span {
+.preparation-time ul li span {
   padding-left: 18px;
 }
-.ingre ul {
+.ingredients ul {
   margin: 20px;
 }
-.ingre ul li {
+.ingredients ul li {
   padding-bottom: 10px;
   padding-left: 10px;
 }
-.instr ol {
+.instructions ol {
   margin: 20px;
 }
-.instr ol li {
+.instructions ol li {
   padding-left: 10px;
   padding-bottom: 10px;
 }
-.instr {
+.instructions {
   text-align: start;
 }
 hr {
@@ -92,4 +100,14 @@ td {
 }
 h1 {
   margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .recipe-card {
+    padding: 10px;
+  }
 }
